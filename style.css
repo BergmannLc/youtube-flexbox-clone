@@ -1,0 +1,186 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #fff;
+  color: #222;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  padding: 0 20px;
+  border-bottom: 1px solid #ccc;
+  background: #fff;
+}
+
+.header-left,
+.header-center,
+.header-right {
+  display: flex;
+  align-items: center;
+}
+
+.menu-btn {
+  background: none;
+  border: none;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.logo {
+  height: 24px;
+}
+
+.header-center input {
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-radius: 2px 0 0 2px;
+  width: 300px;
+}
+
+.search-btn {
+  background: #f8f8f8;
+  border: 1px solid #ccc;
+  border-left: none;
+  padding: 6px 10px;
+  border-radius: 0 2px 2px 0;
+  cursor: pointer;
+}
+
+.search-btn img {
+  height: 20px;
+}
+
+.header-right button {
+  background: none;
+  border: none;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.header-right img.avatar {
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+/* Página principal */
+.watch-page {
+  display: flex;
+  padding: 20px;
+  gap: 20px;
+}
+
+.video-area {
+  flex: 3;
+}
+
+.video-player img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.video-title {
+  font-size: 1.25rem;
+  margin: 15px 0 10px;
+}
+
+.video-infos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.channel {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.channel img {
+  height: 40px;
+}
+
+.channel-data h3 {
+  font-size: 1rem;
+}
+
+.channel-data p {
+  font-size: 0.875rem;
+  color: #555;
+}
+
+.subscribe {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  font-weight: bold;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.video-actions button {
+  background: none;
+  border: none;
+  margin-left: 10px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.video-actions img {
+  height: 20px;
+}
+
+.video-description p {
+  margin: 5px 0;
+  font-size: 0.9rem;
+}
+
+/* Recomendações */
+.recommendations {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.video-card {
+  display: flex;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.video-card img {
+  width: 168px;
+  height: 94px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.video-card h4 {
+  font-size: 0.95rem;
+  margin-bottom: 4px;
+}
+
+.video-card p {
+  font-size: 0.8rem;
+  color: #555;
+}

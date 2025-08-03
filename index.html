@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Clone Youtube - Flexbox Desafio Lucas Bergmann</title>
+    <link rel="stylesheet" href="style.css" />
+    </head>
+<body>
+    <header class="header">
+        <div class="header-left">
+            <button class="menu-btn">
+                <img src="assets/icons/menu.svg" alt="Menu" />
+            </button>
+            <img src="assets/icons/youtube1.svg" alt="YouTube Logo" class="logo" />
+        </div>
+        <div class="header-center">
+            <input type="text" placeholder="Pesquisar" />
+            <button class="search-btn">
+                <img src="assets/icons/search.svg" alt="Pesquisar" />
+            </button>
+        </div>
+        <div class="header-right">
+            <button>
+                <img src="assets/icons/video.svg" alt="Upload" />
+            </button>
+            <button>
+                <img src="assets/icons/bell.svg" alt="Notificações" />
+            </button>
+            <img src="assets/images/bruceperfil.jpg" alt="Avatar" class="avatar" />
+        </div>
+    </header>
+        <main class="watch-page">
+            <section class="video-area">
+                <div class="video-player">
+                    <img src="assets/images/principal-dio.png" alt="Video principal" />
+                </div>
+                <h2 class="video-title">
+                    Semana Front-end | Dia 01: Construindo uma Landing Page no Mundo Invertido com HTML e CSS
+                </h2>
+                <div class="video-infos">
+                    <div class="channel">
+                    <img src="assets/images/Channel Avatar.png" alt="Canal DIO" />
+                    <div class="channel-data">
+                        <h3>DIO</h3>
+                        <p>833 mil inscritos</p>
+                    </div>
+                    <button class="subscribe">INSCREVA-SE</button>
+                    </div>
+                    <div class="video-actions">
+                    <button><img src="assets/icons/thumbs-up.svg" alt="Curtir" /> 2 mil</button>
+                    <button><img src="assets/icons/thumbs-down.svg" alt="Não gostei" /> Não gostei</button>
+                    <button><img src="assets/icons/share-2.svg" alt="Compartilhar" /> Compartilhar</button>
+                    <button><img src="assets/icons/download.svg" alt="Download" /> Download</button>
+                    </div>
+                </div>
+                <div class="video-description">
+                    <p><strong>28.418 visualizações • Transmitido ao vivo em 23 ago. de 2022</strong></p>
+                    <p>
+                    Inicie uma aventura imersiva no mundo do Front-end com HTML e CSS. Para isso,
+                    criaremos uma landing page com a temática da série Stranger Things, a qual
+                    contará com a implementação de um theme switcher (light e dark) para
+                    explorarmos os mistérios do mundo invertido.
+                    </p>
+                </div>
+            </section>
+
+            <aside class="recommendations">
+                <!-- Blocos repetidos para simular mais conteúdo na lateral -->
+                <article class="video-card">
+                    <img src="assets/images/Thumb1.png" alt="Thumb 1" />
+                    <div>
+                        <h4>Geração Tech Unimed - BH - Ciência de Dados</h4>
+                        <p>DigitalInnovationOne</p>
+                        <p>23 mil visualizações</p>
+                    </div>
+                </article>
+
+                <article class="video-card">
+                    <img src="assets/images/Thumb2.png" alt="Thumb 2" />
+                    <div>
+                        <h4>Scrum Talks</h4>
+                        <p>DigitalInnovationOne</p>
+                        <p>1,4 mil visualizações</p>
+                    </div>
+                </article>
+
+                <article class="video-card">
+                    <img src="assets/images/Thumb3.png" alt="Thumb 3" />
+                    <div>
+                        <h4>Machine Learning Avançado - Fast Track</h4>
+                        <p>DigitalInnovationOne</p>
+                        <p>2,1 mil visualizações</p>
+                    </div>
+                </article>
+
+                <article class="video-card">
+                    <img src="assets/images/Thumb4.png" alt="Thumb 4" />
+                    <div>
+                        <h4>Global Skills #2 - Project Planning</h4>
+                        <p>DigitalInnovationOne</p>
+                        <p>971 visualizações</p>
+                    </div>
+                </article>
+
+                <article class="video-card">
+                    <img src="assets/images/Thumb5.png" alt="Thumb 5" />
+                    <div>
+                        <h4>Como aprender a programar Python do ZERO</h4>
+                        <p>DigitalInnovationOne</p>
+                        <p>2,1 mil visualizações</p>
+                    </div>
+                </article>
+
+                <article class="video-card">
+                    <img src="assets/images/Thumb1.png" alt="Thumb 1" />
+                    <div>
+                        <h4>Geração Tech Unimed - BH - Ciência de Dados</h4>
+                        <p>DigitalInnovationOne</p>
+                        <p>23 mil visualizações</p>
+                    </div>
+                </article>
+
+                <article class="video-card">
+                    <img src="assets/images/Thumb2.png" alt="Thumb 2" />
+                    <div>
+                        <h4>Scrum Talks</h4>
+                        <p>DigitalInnovationOne</p>
+                        <p>1,4 mil visualizações</p>
+                    </div>
+                </article>
+
+                <article class="video-card">
+                    <img src="assets/images/Thumb3.png" alt="Thumb 3" />
+                    <div>
+                        <h4>Machine Learning Avançado - Fast Track</h4>
+                        <p>DigitalInnovationOne</p>
+                        <p>2,1 mil visualizações</p>
+                    </div>
+                </article>
+
+                <article class="video-card">
+                    <img src="assets/images/Thumb4.png" alt="Thumb 4" />
+                    <div>
+                        <h4>Global Skills #2 - Project Planning</h4>
+                        <p>DigitalInnovationOne</p>
+                        <p>971 visualizações</p>
+                    </div>
+                </article>
+
+                <article class="video-card">
+                    <img src="assets/images/Thumb5.png" alt="Thumb 5" />
+                    <div>
+                        <h4>Como aprender a programar Python do ZERO</h4>
+                        <p>DigitalInnovationOne</p>
+                        <p>2,1 mil visualizações</p>
+                    </div>
+                </article>
+            </aside>
+        </main>
+    </body>
+</html>
